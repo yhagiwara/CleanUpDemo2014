@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<define-class inherit="Agent.xml" name="Wagon_c02">
+
+  <!--derived class from Entity.xml ALWAYS NEEDS body tag-->
+
+  <!--(otherwise sigserver.sh crashes)-->
+
+ <simpleShape type="box">  
+<!--物理演算形状の位置（見た目の形状からのずれ）を設定します。-->  
+   <position x="0" y="0" z="0"/>  
+<!--物理演算用の形状のサイズを設定します。-->  
+   <size sx="50.6" sy="50.8" sz="54.6"/> 
+ </simpleShape>
+
+  <body filename="dummy-body.xml"/>
+
+  <x3d>
+    <filename>wagon_c02.wrl</filename>
+  </x3d>
+
+</define-class>

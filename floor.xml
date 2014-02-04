@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<define-class inherit="Entity.xml" name="floor">
+
+  <body filename="dummy-body.xml"/>
+
+  <!--形状ファイルの指定 -->
+  <x3d>
+    <filename>floor.x3d</filename>
+  </x3d>
+
+</define-class>

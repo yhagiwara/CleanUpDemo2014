@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<define-class inherit="Entity.xml" name="wall_y">
+
+  <body filename="dummy-body.xml"/>
+
+  <!--形状ファイルの指定 -->
+  <x3d>
+    <filename>wall_y.x3d</filename>
+  </x3d>
+
+</define-class>
